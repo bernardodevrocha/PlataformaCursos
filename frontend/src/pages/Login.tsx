@@ -42,6 +42,7 @@ export function Login() {
         <br />
         <button type="submit">Entrar</button>
         {error && <p style={{ color: 'red' }}>{error}</p>}
+        <p><a href='/cadastro'>Ainda não tem cadastro?</a></p>
       </form>
     </div>
   );
